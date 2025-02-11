@@ -10,11 +10,11 @@ class test(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, msg):
         if msg.content == "hello":
-            await msg.reply("kill yourself :stuck_out_tongue_winking_eye:")
+            await msg.reply("hi :stuck_out_tongue_winking_eye:")
 
     @commands.command()
     async def test(self, ctx):
-        await ctx.send("poop")
+        await ctx.send("hola")
 
 
 async def setup(bot):
